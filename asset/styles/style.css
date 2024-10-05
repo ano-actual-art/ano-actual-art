@@ -98,6 +98,15 @@ footer {
 	gap: 30%;
 }
 
+@media (max-width: 490px) {
+	footer {
+		flex-direction: column;
+	}
+	.about {
+		margin-bottom: 2em;
+	}
+}
+
 .about p {
 	color: #9BF3F0;
 	font-family: Podkova, sans-serif;

@@ -1,6 +1,6 @@
 .nomove {
 	height: 60vh;
-	width: 100%;
+	width: 100vw;
 	position: fixed;
 	display: flex;
 	justify-content: center;
@@ -11,7 +11,7 @@
 }
 
 .nomove .filter {
-	width: 100%;
+	width: 100vw;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -60,7 +60,7 @@ main {
 	z-index: 1;
 	flex-basis: 30vw;
 	text-align: center;
-	width: content;
+	width: max-content;
 	border: none;
 }
 
@@ -104,7 +104,7 @@ main {
 
 .mlink, .dlink {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: baseline;
 }
 .mlink p, .dlink p {
@@ -114,6 +114,6 @@ main {
 }
 
 .linkd {
-	min-width: 140px;
+	min-width: min-content;
 }
 
